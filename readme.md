@@ -1,3 +1,5 @@
-This is a project I used for learning facade-making in scala.js.
+# Scala.js facade to the Countable javascript library
 
-Code is originally from  https://github.com/jducoeur/bootstrap-datepicker-scalajs
+Js code is here: https://github.com/RadLikeWhoa/Countable
+
+
