@@ -11,14 +11,14 @@ import scala.scalajs.js.annotation.{ScalaJSDefined, JSName}
 @JSName("Countable")
 @js.native
 object Countable extends js.Object {
-  def live(e: js.Array[dom.Element], callback: js.ThisFunction1[dom.Element, CountResult, Any], options: CountOpts): Unit = js.native
-  def live(e: js.Array[dom.Element], callback: js.ThisFunction1[dom.Element, CountResult, Any]): Unit = js.native
-  def live(e: dom.Element, callback: js.ThisFunction1[dom.Element, CountResult, Any], options: CountOpts): Unit = js.native
-  def live(e: dom.Element, callback: js.ThisFunction1[dom.Element, CountResult, Any]): Unit = js.native
-  def once(e: js.Array[dom.Element], callback: js.ThisFunction1[dom.Element, CountResult, Any], options: CountOpts): this.type = js.native
-  def once(e: js.Array[dom.Element], callback: js.ThisFunction1[dom.Element, CountResult, Any]): this.type = js.native
-  def once(e: dom.Element, callback: js.ThisFunction1[dom.Element, CountResult, Any], options: CountOpts): this.type = js.native
-  def once(e: dom.Element, callback: js.ThisFunction1[dom.Element, CountResult, Any]): this.type = js.native
+  def live(e: js.Array[dom.Element], callback: js.ThisFunction1[dom.Element, CountResult, _], options: CountOpts): Unit = js.native
+  def live(e: js.Array[dom.Element], callback: js.ThisFunction1[dom.Element, CountResult, _]): Unit = js.native
+  def live(e: dom.Element, callback: js.ThisFunction1[dom.Element, CountResult, _], options: CountOpts): Unit = js.native
+  def live(e: dom.Element, callback: js.ThisFunction1[dom.Element, CountResult, _]): Unit = js.native
+  def once(e: js.Array[dom.Element], callback: js.ThisFunction1[dom.Element, CountResult, _], options: CountOpts): this.type = js.native
+  def once(e: js.Array[dom.Element], callback: js.ThisFunction1[dom.Element, CountResult, _]): this.type = js.native
+  def once(e: dom.Element, callback: js.ThisFunction1[dom.Element, CountResult, _], options: CountOpts): this.type = js.native
+  def once(e: dom.Element, callback: js.ThisFunction1[dom.Element, CountResult, _]): this.type = js.native
   def die(e: js.Array[dom.Element]): this.type = js.native
   def enabled(e: dom.Element): Boolean = js.native
 }
